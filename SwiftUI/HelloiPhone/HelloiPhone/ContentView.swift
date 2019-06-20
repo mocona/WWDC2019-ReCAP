@@ -16,6 +16,7 @@ struct ContentView : View {
     var body: some View {
         //        HStack(alignment: .center , spacing: 20.0) {
         VStack {
+            Spacer()
             Text(msgFinal)
             TextField($msgHello)
                 .textFieldStyle(.roundedBorder)
@@ -23,6 +24,9 @@ struct ContentView : View {
             Button(action: self.gazua) {
                 Text("Gazua!")
             }
+            Spacer()
+            Spacer()
+            Spacer()
         }
         
         //        }
